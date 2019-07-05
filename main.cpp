@@ -1,7 +1,9 @@
-using namespace std;
+#include <stdio.h>
+#include "sum.h"
 
 int main(){
 	int n;
-	cin>>n;
-	cout << sum(n) <<endl;
+	scanf("%d",&n);
+	int s = sum(n);
+	printf("sum = %d\n",s);
 }
